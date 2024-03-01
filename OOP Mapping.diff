@@ -1,0 +1,52 @@
+1. Object: Phone
+Properties
+-Brand (Apple, Samsung)
+-Model (iPhone 12, Google Pixel)
+-Screen Size
+-Storage
+-Date Plan
+-Camera
+-Operating System (iOS, Android)
+
+Methods
+-Make Call
+-Access Internet
+-Take Photo
+-Send Message
+
+
+2. Object: ATM
+Properties
+-Location
+-Cash Amount
+-Affiliated Bank (Metro, Barclays)
+-Associated Fees
+-Supported Currencies
+
+Methods
+-Make Withdrawl
+-Read Card
+-Enter Pin
+-Display Balance
+-Select Language
+
+
+3. Object: Document Reader
+Properties
+-File Type (CSV, PDF)
+-File Size
+-Document Type (Costing, Statement)
+
+Methods
+-Get File Type
+-Get File Size
+-Get Document Type
+-Set Document Type
+
+-Read Document
+-Display Results
+-Preview Document
+-Add Comment
+-Edit Results
+-Save Results
+-Export to CRM
