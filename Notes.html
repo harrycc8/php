@@ -1,0 +1,94 @@
+start form with <form> </form>
+submit a form with <input type="submit" value="buttonText">
+ex. <input type="submit" value="Submit Me!">
+Value is valule sent when used
+
+Most common is text based 
+<input type="testType" name="testName" value="testValue" placeholder="testPrompt">
+ex. dispalys text box for typing text <input type="text" name="company" size="50">
+
+user inputs number <input type="number" name="points" value="100">
+
+slide counter <input type="range" name="transparency" min="0" max="100"
+value="100">
+
+others
+- email
+- url
+- tel
+- time
+- password
+- search
+- hidden
+
+Add labels to forms
+<label>
+Email:
+ <input type="email" name="user-email" placeholder="you@
+    yourdomain.com">
+</label>
+
+Form Example
+<form>
+    Company: <input type="text" name="company" size="50"><p>
+    Points: <input type="number" name="points" value="100" >  
+        </p>
+    <p>
+    Transparency: <input type="range" name="transparency" min="0" max="100"
+    value="100">    
+    </p>
+     
+    <label>
+    Email:
+     <input type="email" name="user-email" placeholder="you@
+        yourdomain.com">
+    </label>
+</form>   
+
+Checkboxes
+<input type="checkbox" name="checkName" value="checkValue" [checked]>
+    checked when present means checkbox will be checked
+
+Group fields together in a box by wrapping body with <fieldset></fieldset>
+
+Radio Buttons: Like checkbox but only only can be selected at a given time
+<input type="radio" name="radioGroup" value="radioValue" [checked]>
+each radio type with the same name will be grouped together
+ex. 
+<div>
+    <input type="radio" name="doctype" id="statement" value="statement">
+    <label for="statement">Statement</label>
+</div>
+
+Section Lists
+Used if options has 5 of more values
+<select name="selectName" size="selectSize" [multiple]></select>
+    selectName = name you want to assign the section list 
+    selectSize = number of rows that are visable (optional, will be drop down box if omitted)
+    if multiple is included, can select multiple options 
+<option value="optionValue" [selected]>
+    Between the select texts for each item to include
+Ex. <form>
+    <div>
+    <label for="hair-color">Select your hair color:
+   </label><br>
+    <select id="hair-color" name="hair-color">
+    <option value="black">Black</option>
+    <option value="blonde">Blonde</option>
+    <option value="brunette" selected>Brunette</option>
+    <option value="red">Red</option>
+    <option value="neon">Something neon</option>
+    <option value="none">None</option>
+    </select>
+    </div>
+
+    
+Pickers: when clicked, opens a control that allows user to pick a value
+color
+<input type="color" name="bg-color" value="#4f5392">
+date
+<input type="date" name="appt-date" value="2023-08-23">
+files 
+<input type="file" name="user-photo">
+month: choose month and year
+<input type="month" name="birthday-month" value="2023-08">
